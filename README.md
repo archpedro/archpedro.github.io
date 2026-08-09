@@ -65,7 +65,7 @@
         <!-- About Section -->
         <section id="about">
             <h2>about</h2>
-            <p>architectural designer. graduated from fay jones school of architecture + design in 2025. currently practicing in st. louis. </p>
+            <p>architectural designer. graduated from fay jones school of architecture + design in 2025. currently working in st. louis. </p>
         </section>
     </main>
 
