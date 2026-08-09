@@ -35,7 +35,7 @@
                 
                 <!-- Project Card 1 -->
                 <article class="project-card">
-                    <img src="assets/project1-thumb.jpg" alt="Exterior rendering of recent project">
+                    <img src="assets/04.28.25-hybrid-drawing-arredondo.jpg" alt="Exterior rendering of recent project">
                     <h3>translogic studio: proto-urban monastery</h3>
                     <p>the basis of this studio was to propose an idea of an urban vertical monastery in mexico city.</p>
                     <a href="project1.html">view full project</a>
