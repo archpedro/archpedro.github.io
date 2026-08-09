@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,12 +11,12 @@
     <!-- Navigation -->
     <header>
         <nav>
-            <h1>My Portfolio</h1>
+            <h1>creative portfolio</h1>
             <ul>
-                <li><a href="#architecture">Architecture</a></li>
-                <li><a href="#film">Film Photography</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#architecture">architecture</a></li>
+                <li><a href="#film">photographyy</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#contact">contact</a></li>
             </ul>
         </nav>
     </header>
@@ -29,9 +28,9 @@
             <p>Welcome to my digital workspace.</p>
         </section>
 
-        <!-- Architectural Design Section -->
+        <!-- fay jones school of architecture - 2025 b.arch studies -->
         <section id="architecture">
-            <h2>Architectural Design</h2>
+            <h2>architectural studios</h2>
             <div class="portfolio-grid">
                 
                 <!-- Project Card 1 -->
@@ -73,10 +72,10 @@
     <!-- Footer -->
     <footer>
         <section id="contact">
-            <h2>Get in Touch</h2>
-            <a href="mailto:hello@example.com">Email Me</a>
+            <h2>contact</h2>
+            <a href="mailto:hello@example.com">email</a>
         </section>
-        <p>&copy; 2026 My Portfolio. Built from scratch.</p>
+        <p>&copy; work in progress.</p>
     </footer>
 
 </body>
