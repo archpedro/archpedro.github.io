@@ -1,0 +1,69 @@
+/* style.css */
+
+/* 1. Global Styles */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #222;
+    background-color: #fcfcfc;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+/* 2. Navigation */
+header {
+    padding: 20px 40px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+/* 3. Section Layout */
+main section {
+    padding: 60px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* 4. The Grids (The Magic Part) */
+.portfolio-grid, .photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+/* Make sure images never overflow their grid cells */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    background-color: #eee; /* Placeholder color until your images load */
+}
+
+/* 5. Typography tweaks for captions */
+figcaption, .project-card p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 10px;
+}
