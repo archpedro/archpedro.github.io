@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
+<!-- Splash Screen Overlay -->
+    <div id="splash-screen">
+        <p>are you still you ?</p>
+    </div>
 
     <!-- Navigation -->
     <header>
