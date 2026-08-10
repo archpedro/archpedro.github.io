@@ -67,3 +67,39 @@ figcaption, .project-card p {
     color: #666;
     margin-top: 10px;
 }
+
+/* Splash Screen Overlay */
+#splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0000ff; /* Classic solid blue (change hex code for a different shade) */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Ensures it stays on top of all page elements */
+    
+    /* Typography */
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1px;
+
+    /* Holds solid for 4.5 seconds, then fades out over 0.5 seconds (Total: 5s) */
+    animation: fadeOut 0.5s ease-in-out 4.5s forwards;
+}
+
+/* Disappear Animation */
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        visibility: visible;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none; /* Allows clicks to pass through to the main page after fading */
+    }
+}
