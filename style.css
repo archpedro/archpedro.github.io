@@ -163,3 +163,34 @@ figcaption, .project-card p {
     width: 100%;
     margin: 30px 0;
 }
+
+/* Top Hero Image Banner */
+.hero-banner {
+    width: 100%;
+    height: 380px; /* Adjust height to fit your preferences */
+    overflow: hidden;
+    position: relative;
+    background-color: #e5e5e0;
+    border-bottom: 1px solid #e0e0dc;
+}
+
+.banner-track {
+    display: flex;
+    width: 300%; /* 100% per image (3 images = 300%) */
+    height: 100%;
+    animation: slideImages 15s ease-in-out infinite;
+}
+
+.banner-track img {
+    width: 33.333%; /* Each image spans full banner width */
+    height: 100%;
+    object-fit: cover; /* Keeps image proportions cropped cleanly */
+}
+
+/* Pause and Slide Keyframes */
+@keyframes slideImages {
+    0%, 28%   { transform: translateX(0%); }
+    33%, 61%  { transform: translateX(-33.333%); }
+    66%, 94%  { transform: translateX(-66.666%); }
+    100%      { transform: translateX(0%); }
+}
