@@ -164,33 +164,20 @@ figcaption, .project-card p {
     margin: 30px 0;
 }
 
-/* Sliding Banner */
+/* Static Top Hero Image Banner */
 .hero-banner {
     width: 100%;
-    height: 450px;
+    height: 425px; /* Adjust height as desired */
     overflow: hidden;
     position: relative;
+    z-index: 1; /* Retains low stacking priority under splash screen */
     background-color: #e5e5e0;
     border-bottom: 1px solid #e0e0dc;
 }
 
-.banner-track {
-    display: flex;
-    width: 300%; /* 100% per image (3 images = 300%) */
+.hero-banner img {
+    width: 100%;
     height: 100%;
-    animation: slideImages 60s ease-in-out infinite;
-}
-
-.banner-track img {
-    width: 33.333%; /* Each image spans full banner width */
-    height: 100%;
-    object-fit: cover; /* Keeps image proportions cropped cleanly */
-}
-
-/* Pause and Slide Keyframes */
-@keyframes slideImages {
-    0%, 28%   { transform: translateX(0%); }
-    33%, 61%  { transform: translateX(-33.333%); }
-    66%, 94%  { transform: translateX(-66.666%); }
-    100%      { transform: translateX(0%); }
+    object-fit: cover; /* Fills width/height without distorting aspect ratio */
+    display: block;
 }
