@@ -164,10 +164,10 @@ figcaption, .project-card p {
     margin: 30px 0;
 }
 
-/* Top Hero Image Banner */
+/* Sliding Banner */
 .hero-banner {
     width: 100%;
-    height: 380px; /* Adjust height to fit your preferences */
+    height: 450px;
     overflow: hidden;
     position: relative;
     background-color: #e5e5e0;
