@@ -178,7 +178,7 @@ figcaption, .project-card p {
     display: flex;
     width: 300%; /* 100% per image (3 images = 300%) */
     height: 100%;
-    animation: slideImages 15s ease-in-out infinite;
+    animation: slideImages 60s ease-in-out infinite;
 }
 
 .banner-track img {
