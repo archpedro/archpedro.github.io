@@ -186,3 +186,33 @@ figcaption, .project-card p {
     object-fit: cover; 
     display: block;
 }
+
+/* Minimalist Text Archive List */
+.project-list {
+    list-style: none;
+    padding: 0;
+    margin: 24px 0;
+}
+
+.project-list li {
+    margin-bottom: 14px;
+}
+
+.project-list a {
+    color: #222222; /* Matches body text instead of hyperlink blue */
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: inline-block;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+/* Subtle Hover Effect */
+.project-list a:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+/* Reset or remove old grid styles if no longer needed */
+.portfolio-grid, .project-card {
+    display: block;
+}
