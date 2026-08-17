@@ -216,3 +216,37 @@ figcaption, .project-card p {
 .portfolio-grid, .project-card {
     display: block;
 }
+
+.project-list {
+    list-style: none;
+    padding: 0;
+    margin: 24px 0;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.project-list li {
+    margin-bottom: 12px;
+    font-size: 1.05rem;
+    line-height: 1.4;
+}
+
+.project-list a {
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    transition: opacity 0.2s ease;
+}
+
+/* Typography styles matching image layout */
+.project-list a strong {
+    font-weight: bold;
+}
+
+.project-list a em {
+    font-style: italic;
+}
+
+/* Subtle hover state */
+.project-list a:hover {
+    opacity: 0.55;
+}
