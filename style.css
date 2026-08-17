@@ -94,7 +94,8 @@ figcaption, .project-card p {
 .terminal-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
     padding: 20px;
 }
 
@@ -104,6 +105,8 @@ figcaption, .project-card p {
     white-space: nowrap;
     border-right: 2px solid #ffffff;
     width: 0;
+    margin: 0 auto;
+    color: #ffffff;
 }
 
 /* Line 1: Main Text ("are you still you ?" = 18 characters) */
@@ -118,7 +121,7 @@ figcaption, .project-card p {
 /* Line 2: Sub Text (46 characters) */
 .typewriter.sub-text {
     font-size: 0.85rem;
-    color: #a0b0ff;
+    color: #ffffff;
     margin-top: 12px;
     animation: 
         typeLine2 1.8s steps(46, end) 1.8s forwards,
